@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .icone{
+            width:32px; 
+            height:24px;
+            padding: 0.8rem;
+        }   
+        .container{
+            display: inline-flex;
+            border: solid 1px #575353 ;
+            border-radius: 10px;
+            flex: 1 1 300px;
+            overflow: hidden;
+        }
+        .searchBox{
+            border:0;
+            flex:1;
+        }
+    </style>
+    
+</head>
+<body>
+        <div class="container">
+            <img src="./image/search.svg" alt="search icone" class="icone" />
+            <input type="search" placeholder="Enter Text Here .. " name="search" class="searchBox"/> 
+            <input type="submit" class="searchButton" value="Search"/>  
+        </div>
+</body>
+</html>
